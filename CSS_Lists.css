@@ -1,0 +1,15 @@
+ol {
+    list-style-type: lower-roman;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    color: slategrey;
+}
+p {
+    color: darkslateblue;
+}
+h1 {
+    text-shadow: 2px 2px lightblue;
+  }
