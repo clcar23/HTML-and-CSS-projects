@@ -1,0 +1,15 @@
+ol {
+    list-style-type: lower-greek;
+}
+ul {
+    list-style-type: square;
+}
+h2 {
+    color: lime;
+}
+p {
+    color: magenta;
+}
+h1 {
+    text-shadow: 2px 2px #ff0000;
+  }
