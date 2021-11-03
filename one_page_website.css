@@ -1,0 +1,41 @@
+html {
+    font-family: monospace serif;
+    font-size: 70%;
+    width: auto;
+    border-radius: 6%
+    -webkit-tap-highlight-color: 0, 0, 0, 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 15px;
+    font-family: monospace sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 8px;
+}
+
+.section nav { 
+    display: block;
+    color: darkslateblue;
+    font-weight: 800;
+    max-height: 350px;
+    margin: 0% auto;
+    content: " ";
+    position: fixed;
+    width: 100%;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: monospace serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+}
