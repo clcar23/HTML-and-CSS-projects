@@ -5,75 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./CSS_Files/shared.css">
+    <link rel="stylesheet" href="./CSS_Files/animations.css">
+
 </head>
 <body>
 
     
     <!--Navigation-->
-<nav>
-    <ul>
-        <a href="#home" id="link"><li>Home</li></a>
-        <a href="#about" id="link"><li>About</li></a>
-        <a href="#brews" id="link"><li>Brews</li></a>
-        <a href="#contact" id="link"><li>Contact</li></a>
-    </ul>
-</nav>
+<div class="wrap">
+    <div class="menu-container">
+        <ul class="menu">
+            <a href="#home" id="link"><li>Home</li></a>
+            <a href="#about" id="link"><li>About</li></a>
+            <a href="#gallery" id="link"><li>Brews</li></a>
+            <a href="#rsvp" id="link"><li>Contact</li></a>
+        </ul>
+    </div>
+</div>
+
     <!--End Navigation-->
 
-<section>
+
     <!--Home-->
     <div id="home">
-        <div>
-            <span>ZTBrewing</span>
+        <div class="container">
+            <div class="text-center"> 
+            <span class="head-main">ZTBrewing</span>
+            </div>
         </div>
     </div>
     <!--End Home Section-->
-</section>
-
-<section>
-    <!--About-->
-    <div id="about">
-        <div>
-            <h1>About ZTBrewing</h1>
-            <p>Started in 2019, Zeke has been crafting a wide variety of beers from his home.</p>
-            <span>The Process..</span>
-
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/qCW-SVPCw4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            
-        </div>
-    </div>
-
-    <!--About End-->
-
-</section>
 
 
-<section> 
-    <!--Brews-->
-    <div id="brews">
-        <h1>Current Brews</h1>
-        <div>
+    <!--Gallery-->
+    <section id="gallery"> 
+        <div class="container">        
+            <h1>Gallery</h1>
+                <div class="flex-container">
       
 
             <!--Photo Container 1-->
-            <div>
-                <div>
-                    <img src="./Images/Thumb/beer_11.jpg" alt="Picture of dark beer">
-                    <div>
-                        <h3>Hoppy Darkness 2.0</h3>
-                        <p>Dark IPA brewed with Hudson malt and Savvy hops</p>
-                    </div>
-                </div>
-
-            </div>
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/beer_11.jpg" alt="Picture of dark beer">
+                                <div class="photo-overlay">
+                                <h3>Hoppy Darkness 2.0</h3>
+                                 <p>Dark IPA brewed with Hudson malt and Savvy hops</p>
+                                </div>
+                         </div>
+                    </div>        
+                </div>           
             <!--End Photo Container 1-->
 
             <!--Photo Container 2-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_10.jpg" alt="Picture of a dark beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Russian Imperial BBS</h3>
                         <p>Imperial stout aged in a boubon barrel</p>
 
@@ -84,10 +73,10 @@
             <!--End Photo Container 2-->
 
             <!--Photo Container 3-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_12.jpg" alt="Picture of a medium beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Presidental Haze</h3>
                         <p>Hazy IPA brewed with Kenduh Hops and Arsenic</p>
 
@@ -98,10 +87,10 @@
             <!--End Photo Container 3-->
 
             <!--Photo Container 4-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_3.jpg" alt="Picture of a creamy dark beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Toasted Marshmallow Stout</h3>
                         <p>Ava malts brewed with toasted Stay-Puft marshmallows</p>
 
@@ -112,10 +101,10 @@
             <!--End Photo Container 4-->
 
             <!--Photo Container 5-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_5.png" alt="Picture of a pumpkin beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Drunkin' Pumpkin</h3>
                         <p>Pumkin spiced Lager</p>
 
@@ -126,10 +115,10 @@
             <!--End Photo Container 5-->
 
             <!--Photo Container 6-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_6.jfif" alt="Picture of a sour beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Mango-Strawberry Sour</h3>
                         <p>Sour made with Mango and Strawberry puree</p>
 
@@ -140,10 +129,10 @@
             <!--End Photo Container 6-->
 
             <!--Photo Container 7-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_4.png" alt="Picture of a IPA beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>New England IPA</h3>
                         <p>Crafted with Centennial and Mosaic hops</p>
 
@@ -154,10 +143,10 @@
             <!--End Photo Container 7-->
 
             <!--Photo Container 8-->
-            <div>
-                <div>
+            <div class="photo-container">
+                <div class="photo">
                     <img src="./Images/Thumb/beer_7.jpg" alt="Picture of a IPA beer">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Space Case IPA</h3>
                         <p>Brewed with leftover hops and lawn-clippings</p>
 
@@ -166,45 +155,66 @@
 
             </div>
             <!--End Photo Container 8-->
+ 
+                <!-- PHOTO-CONTAINER 9 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./Images/Thumb/beer_1.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h3>Fresh Squeezed IPAs</h3>
+                            <p>A plethora of fresh-squeezed citrus fruits and hops.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PHOTO-CONTAINER 9 -->
             
       
             
         </div>
     </div>
 </section>    
-<!--Brews End-->
+<!--Gallery End-->
 
-<!--Contact-->
 
-<section>
-<div id="contact">
-    <div>
-        <h2>Comments? Suggestions?</h2>
-        <h3><span>Sticker Swap?</span></h3>
-            <p>Please enter your contact info below.</p>
-    </div>
-        <div>
-            <form action= "" method= "post">
-                <input class="rsvp" type="text" value="First_Name">
-                <input class="rsvp" type="text" value="Last_Name">
-                <input class="rsvp" type="text" value="Email_Address">
-                <input class="rsvp" type="text" value="Phone_Number">
-                <div class="Form_Spacer">
+<!-- RSVP -->
+    <section id="rsvp">
+        <div class="container">
+            <div class="heading-padding">
+                <h1 class="heading-padding">Reservations</h1>
+                <div class="reservation">
+                    <h2><span>Your adventure is just a couple sips away!</span>
+                    <br>Reserve your bar stool today!
+                </h2>
+                    <p class="rsvp-text">
+                        Please provide us with your basic contact information.
+                    </p>
+                    <div class="form-rsvp">
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="" placeholder="First Name">
+                            <input class="rsvp" type="text" value="" placeholder="Last Name">
+                            <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                            <input class="rsvp" type="text" value="" placeholder="Email Address">
+                        <div class="form-spacer">
+                            <label class="terms">Terms and Conditions</label>
+                        
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                        </form>
+                    </div>
                 </div>
-                    <div>
-                        <input class="submit" value="Submit">
-                    </div>    
+            </div>
         </div>
+
+    </section>
+    <!-- END RSVP -->
+
+    <!-- FOOTER -->
+    <div id="footer">
+        www.ZTBrewing.beer &nbsp;|&nbsp; &copy; 2019
     </div>
-</form>
-</section>
-        </body>
-</div>
-<!--Footer-->
-    <div>
-        www.ZTBrewing.com&nbsp;|&nbsp;&copy;2019
-    </div>
-<!--End Footer-->
+    <!-- END FOOTER-->
 
     
 </body>
