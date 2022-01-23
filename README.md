@@ -1,11 +1,11 @@
 # HTML-and-CSS-projects
 
 
--ZT Brewing Project
+[TPE Website](https://github.com/clcar23/HTML-and-CSS-projects/tree/main/One_Page_Website)
 
-Created One_Page_Website an example of a wepage for a brewing company styled with CSS and image files. It has forms, navbar, and image containers.
+Created a one-page website, an example of a wepage for a small machine sales and repair company styled with CSS and image files. It has forms, navbar, and image containers.
 
 
--Movie Theater Project
+[Movie Theater Project](https://github.com/clcar23/HTML-and-CSS-projects/tree/main/bootstrap4_project)
 
-Created bootstrap4_project an example of a movie theater webpage using Bootstrap4. It contains Bootstrap components like Navbar, Jumbotrons, form cards, and drop-downs. 
+Created an example of a movie theater webpage using Bootstrap4. It contains Bootstrap components like Navbar, Jumbotrons, form cards, and drop-downs. 
